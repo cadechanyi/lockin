@@ -1,0 +1,1247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00D1278EBDA05E067F88BD9D /* ScheduleEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67651FF19F1DAF0EBE4C86AE /* ScheduleEvaluator.swift */; };
+		00DC0EDD68608DFBE5469632 /* LockinDeviceActivity.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B920AD3D8AB48C32C05AA341 /* LockinDeviceActivity.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		01227E2E879CCAC12C99D615 /* ScheduleEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67651FF19F1DAF0EBE4C86AE /* ScheduleEvaluator.swift */; };
+		02BF3B0BC40CF1FC8BD8FD6D /* ZoneProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5BE0C041F0B87240436EA6 /* ZoneProgressView.swift */; };
+		02E955110FF07ADF51D9C748 /* ProgressHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97A409FA9C619F8DF371059 /* ProgressHomeView.swift */; };
+		034749E2C4ACFC772556E0EA /* WebsitePresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5185DDCA19037189B30A9261 /* WebsitePresets.swift */; };
+		04B75EA7A31C4063EC25779B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CA011F6E7F0A1137E4A032 /* Theme.swift */; };
+		06476316DD85802998294F92 /* MacAppBlocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BE19CD5CA57BD22DD3A039 /* MacAppBlocker.swift */; };
+		069618C8C24F277D4E969D44 /* FamilyControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E95B878DC11072A5736C10 /* FamilyControls.framework */; };
+		0807C3FC59401E9FA579047D /* MilestoneEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB501713DCC43F117E1EA856 /* MilestoneEditorView.swift */; };
+		083A30F42472E8A93A680691 /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE64C8D56B2F6FBD812BD2 /* ValidationService.swift */; };
+		0A631CA5AE7E2BB9C1A7DB75 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014DB2B811CA004B4ABADCE7 /* RootView.swift */; };
+		0BBF83DD809757C24AA5CA89 /* FamilyControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E95B878DC11072A5736C10 /* FamilyControls.framework */; };
+		0FA97DAC02178A827447F6B4 /* CalendarHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3EACC970029B5058F2D458 /* CalendarHomeView.swift */; };
+		0FEBCC3EEDC1734976D5321D /* FamilyControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E95B878DC11072A5736C10 /* FamilyControls.framework */; };
+		1077D10D1FBB2DB0223DF099 /* BlocklistEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B319A9843C64431CB1F01F /* BlocklistEditorView.swift */; };
+		11BB26DDCAF9F93DA97F9FAF /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4AC7F1B924373F13E55DC8 /* OverviewView.swift */; };
+		12632485DEE03875BB3CFB69 /* SnapshotBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9865B33AE93CC754D66BFBEC /* SnapshotBuilder.swift */; };
+		129F4D644AF3E5E2FEFB4324 /* EntityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A64525F53A78AA9A37CCFAB /* EntityCard.swift */; };
+		14ACC416613B40E024BA40B9 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A9510A8884F557998927D3 /* Models.swift */; };
+		164E5773913AD0A93EBA3DE1 /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861CAFB60A147EB9A6766D9E /* DeviceActivity.framework */; };
+		18B1C989BEF4F240C09FE393 /* BlockEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D7256C1E42DA92B86A1506 /* BlockEngine.swift */; };
+		18F8983D6D29DEA43D515C4B /* ZonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6073A7F9D014D99EC755CC75 /* ZonesView.swift */; };
+		1F08ACA6D9EDAAE1A1D9999F /* BlocklistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCDC96637F0D4ED3D7E15E6 /* BlocklistsView.swift */; };
+		242B7C6D86CB6827B6D71644 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECCA3A24225F5634C54D47F /* OnboardingView.swift */; };
+		243139489DA9C6FBB1E8DC55 /* ManagedSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4C227D398BFBDD228BD463 /* ManagedSettings.framework */; };
+		266CC074B8BE6B9221482D40 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504032B853EEF88F9CAFFE09 /* AppGroup.swift */; };
+		26E3F9447AF5E2DDD02E8A5D /* BlockEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D7256C1E42DA92B86A1506 /* BlockEngine.swift */; };
+		2736892398DCF74C23E5BF99 /* BlocklistEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B319A9843C64431CB1F01F /* BlocklistEditorView.swift */; };
+		27D401B034380045293B0289 /* ZonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6073A7F9D014D99EC755CC75 /* ZonesView.swift */; };
+		2B229AD3AD6868939B74E9F5 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECCA3A24225F5634C54D47F /* OnboardingView.swift */; };
+		307F93BB695E2993BDE9F91A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C79376A4AA2BFE78B214F4 /* Assets.xcassets */; };
+		323E9DBABEC1EEC062A65A77 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014DB2B811CA004B4ABADCE7 /* RootView.swift */; };
+		34BCBFC36711B9E66A4EDCA1 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504032B853EEF88F9CAFFE09 /* AppGroup.swift */; };
+		37544DF41AAD06E5F9534538 /* ManagedSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4C227D398BFBDD228BD463 /* ManagedSettings.framework */; };
+		3858C0E35792C3F9F0851A68 /* GradeCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DB9491AAC467433090FBCA /* GradeCalculatorTests.swift */; };
+		3BF251EFE76000AD19B24FDA /* RotaryDurationClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DF9D667F44F65F952B2D06 /* RotaryDurationClock.swift */; };
+		42DC566981C78B30FDD90997 /* RotaryDurationClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DF9D667F44F65F952B2D06 /* RotaryDurationClock.swift */; };
+		47290533D25EB5B1FF787E37 /* DeviceActivityMonitorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5AB124BA96C3056CE8F2A7 /* DeviceActivityMonitorExtension.swift */; };
+		49FF21D42BC9B312A1CFC941 /* ValidationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D3236099A2CF7A384C041E /* ValidationView.swift */; };
+		4AC3BB33FA3C7CE3E2949021 /* MacAppBlocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BE19CD5CA57BD22DD3A039 /* MacAppBlocker.swift */; };
+		4BAFCFEB202B3B40CDD73310 /* ZoneEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107A52E1BF87D9F5A26D2BE6 /* ZoneEditorView.swift */; };
+		4C241443DDFA1AE3235289DE /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE64C8D56B2F6FBD812BD2 /* ValidationService.swift */; };
+		4CFF2D69EA0D4947C84E7C69 /* LockinShieldConfiguration.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5E617EB17DBB09E91B08C0A7 /* LockinShieldConfiguration.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4E238D220D926B93EE47266E /* ManagedSettingsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D0B0256D0271B80465C369 /* ManagedSettingsUI.framework */; };
+		4F822FDB1FF450B5404651AD /* EventEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF80EFF8A56DDED9C27A7F3 /* EventEditorView.swift */; };
+		52B8A57382DFAA4B4522FFC4 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E53FD1FF0CB50B81634ADA1 /* KeychainStore.swift */; };
+		580ABE2F1CB82CDC1ABDAD55 /* LockState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FAC45ECC718224AD34191B /* LockState.swift */; };
+		589F7D69E9D3DE585FD1CB41 /* ShieldActionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19A8C5F0C2EB23F1C42DD13 /* ShieldActionExtension.swift */; };
+		5A8A66B7356C61EF582CD65D /* ManagedSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4C227D398BFBDD228BD463 /* ManagedSettings.framework */; };
+		5B3814CCB025D3347E32EA9E /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E53FD1FF0CB50B81634ADA1 /* KeychainStore.swift */; };
+		5BDCDCCC7890161A7A79644C /* ModelContainer+Lockin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557FFA562E50070A6D6DAC1E /* ModelContainer+Lockin.swift */; };
+		5D7C9E8AB5D597169207576D /* GradeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD7826541BB3A5130C9D53D /* GradeCalculator.swift */; };
+		6314D0003D8AEC31C149966A /* ZoneEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107A52E1BF87D9F5A26D2BE6 /* ZoneEditorView.swift */; };
+		666CF06814AA481CA49C4C07 /* LockState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FAC45ECC718224AD34191B /* LockState.swift */; };
+		69ADC51E1A35669E5BB0C05C /* WebsitePresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5185DDCA19037189B30A9261 /* WebsitePresets.swift */; };
+		715DA6B2B3AD62EB27BEC171 /* DeviceSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D71B885B49FDEB1DDD007B /* DeviceSettings.swift */; };
+		781811EE5F362A4E6918A83C /* DeviceActivityNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AFCA2DB216BE57E2A103 /* DeviceActivityNames.swift */; };
+		7B046101C8BD4797C4602DF6 /* ScheduleEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67651FF19F1DAF0EBE4C86AE /* ScheduleEvaluator.swift */; };
+		7DCDE09923AD6AF0C02615E7 /* LockinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFDB155413415B16E555153 /* LockinApp.swift */; };
+		823BDB6C0C209DD4D77F885B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBACD7A20C31A51920F26C6 /* SettingsView.swift */; };
+		855057A8BBCB15D4F8DB2C5F /* DashboardViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AFB020A621CC95C714AC75 /* DashboardViews.swift */; };
+		8674952BB9EBF5D8AEE0E50A /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87994F3FA0B46194A5B6F75 /* NotificationService.swift */; };
+		86B5882DAC3EFFD65CD129C5 /* SessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63CEBDB7238CC9D2A6C0E54 /* SessionsView.swift */; };
+		8952DFD903F189FB6B33376D /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4AC7F1B924373F13E55DC8 /* OverviewView.swift */; };
+		8D569B2CD71C5D418F046C78 /* ScheduleEvaluatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E321F0DA35B54FCB3F8F66 /* ScheduleEvaluatorTests.swift */; };
+		8F9EEA5E0E79211E08267A77 /* MacSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D13C42EB7B12B310AE287F /* MacSupport.swift */; };
+		933C2A275EAC07324BF62CF3 /* SessionWizardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470AE0A047BB5C7A3CC79A19 /* SessionWizardView.swift */; };
+		947DED11165CDD44A98C8755 /* GradeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD7826541BB3A5130C9D53D /* GradeCalculator.swift */; };
+		94AFFC96FD52FD6E28A43B3C /* DeviceActivityNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AFCA2DB216BE57E2A103 /* DeviceActivityNames.swift */; };
+		980686C8E4D750A8ED841D1B /* ZoneProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5BE0C041F0B87240436EA6 /* ZoneProgressView.swift */; };
+		9C85E78868B3E640E9D9A8D2 /* SnapshotBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9865B33AE93CC754D66BFBEC /* SnapshotBuilder.swift */; };
+		9D7E0E8C232C8ED59B447BEC /* SyncMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEC75810D755204EEF448EC /* SyncMonitor.swift */; };
+		9E64EC56553757D101AF6CC4 /* MacAppBlocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BE19CD5CA57BD22DD3A039 /* MacAppBlocker.swift */; };
+		9FB8BA1014ECC360B8EE214F /* EventEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF80EFF8A56DDED9C27A7F3 /* EventEditorView.swift */; };
+		A1BDDDA1336C6F8A74AAE51C /* BlockEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D7256C1E42DA92B86A1506 /* BlockEngine.swift */; };
+		A2AA16BDE031BF976B36C623 /* ProgressSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AF57D513796A1E8149E4B9 /* ProgressSupport.swift */; };
+		A5C183316E2F723A240DD7E3 /* ProgressSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AF57D513796A1E8149E4B9 /* ProgressSupport.swift */; };
+		A9180DAC962E1BA7B487CE12 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504032B853EEF88F9CAFFE09 /* AppGroup.swift */; };
+		ABFCFD742BD3F8E72CF2271B /* EntityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A64525F53A78AA9A37CCFAB /* EntityCard.swift */; };
+		AF3DA7E0D621690A0944769E /* SessionWizardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470AE0A047BB5C7A3CC79A19 /* SessionWizardView.swift */; };
+		B0A6A08A347DE751D2ECCA43 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504032B853EEF88F9CAFFE09 /* AppGroup.swift */; };
+		B425767CA4935C2F6F86CF83 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CA011F6E7F0A1137E4A032 /* Theme.swift */; };
+		B575D270193D01FF571216A0 /* ModelContainer+Lockin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557FFA562E50070A6D6DAC1E /* ModelContainer+Lockin.swift */; };
+		B608247CC2E2A2FD5E5EF460 /* ValidationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D3236099A2CF7A384C041E /* ValidationView.swift */; };
+		B6F12219B101A9BE3C2336EA /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861CAFB60A147EB9A6766D9E /* DeviceActivity.framework */; };
+		BD5054021EA4DD05B368031A /* SessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63CEBDB7238CC9D2A6C0E54 /* SessionsView.swift */; };
+		BF8D54730075D430A091DA68 /* SyncMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEC75810D755204EEF448EC /* SyncMonitor.swift */; };
+		C05303FFCE8DC007469886DF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBACD7A20C31A51920F26C6 /* SettingsView.swift */; };
+		C0D7C7ABD46988B9492B82A5 /* BlocklistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCDC96637F0D4ED3D7E15E6 /* BlocklistsView.swift */; };
+		C17CB6CEDFC90487DD246C09 /* LockinShieldAction.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A8C6605C7769C3F4766C9F4D /* LockinShieldAction.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C1BE186CC81AFFF746872646 /* CalendarHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3EACC970029B5058F2D458 /* CalendarHomeView.swift */; };
+		C2080D5E4A3146BA01CA937B /* DashboardViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AFB020A621CC95C714AC75 /* DashboardViews.swift */; };
+		C20F42586F5AB69F7091C805 /* MilestoneEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB501713DCC43F117E1EA856 /* MilestoneEditorView.swift */; };
+		C21C8D7A6BF0A80620727B42 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A9510A8884F557998927D3 /* Models.swift */; };
+		C50DFF7466CA9027AD8C5C9D /* ScheduleEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67651FF19F1DAF0EBE4C86AE /* ScheduleEvaluator.swift */; };
+		C5D1824B37FE00AA83DFF08F /* DeviceActivityNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AFCA2DB216BE57E2A103 /* DeviceActivityNames.swift */; };
+		C64C274568BEA6B29958F129 /* WebsitePresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5185DDCA19037189B30A9261 /* WebsitePresets.swift */; };
+		C8C371FFFBFFCDAF415BFF7E /* ShieldConfigurationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB1C19E4108C163159C92A9 /* ShieldConfigurationExtension.swift */; };
+		CA0B9D42186311DCE2A54DE0 /* ProgressHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97A409FA9C619F8DF371059 /* ProgressHomeView.swift */; };
+		CE5701CE79B362BF02BE91E8 /* GradeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD7826541BB3A5130C9D53D /* GradeCalculator.swift */; };
+		D16977116B85C716E23CBB59 /* XboxPresenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E23F64D5F4E91E389E4A806 /* XboxPresenceService.swift */; };
+		D7454FE6F4B4F57B54C9BB5F /* LockinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFDB155413415B16E555153 /* LockinApp.swift */; };
+		DD83D2886EFAB399861010BF /* ManagedSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4C227D398BFBDD228BD463 /* ManagedSettings.framework */; };
+		DE4446C457912E61AA981096 /* FamilyControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E95B878DC11072A5736C10 /* FamilyControls.framework */; };
+		E2C2D6AB2D02D3C091BFB352 /* DeviceSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D71B885B49FDEB1DDD007B /* DeviceSettings.swift */; };
+		E3D4658E8BE6C6995BFE3732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C79376A4AA2BFE78B214F4 /* Assets.xcassets */; };
+		E45C003BBBC421F148D47AA7 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87994F3FA0B46194A5B6F75 /* NotificationService.swift */; };
+		F0BB8757A17C83287F7F9AE7 /* XboxPresenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E23F64D5F4E91E389E4A806 /* XboxPresenceService.swift */; };
+		F2EC93D035CA7ADC8352745E /* MacSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D13C42EB7B12B310AE287F /* MacSupport.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97E7EBEE2BFCF6D76A336017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1BAD0681630D1CDBE93FF4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADB5FD151841A5F906D158C5;
+			remoteInfo = LockinDeviceActivity;
+		};
+		D89D674DAC4F48C53E1A88EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1BAD0681630D1CDBE93FF4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05C60BB9BFA66B86AE53B71D;
+			remoteInfo = LockinShieldAction;
+		};
+		F39342DCB8D8F33A245BD8C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1BAD0681630D1CDBE93FF4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D4A60AB86A4F73184BA991C;
+			remoteInfo = LockinShieldConfiguration;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3949F4BE8958E536AF4C9654 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				00DC0EDD68608DFBE5469632 /* LockinDeviceActivity.appex in Embed Foundation Extensions */,
+				4CFF2D69EA0D4947C84E7C69 /* LockinShieldConfiguration.appex in Embed Foundation Extensions */,
+				C17CB6CEDFC90487DD246C09 /* LockinShieldAction.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		014DB2B811CA004B4ABADCE7 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		01AFB020A621CC95C714AC75 /* DashboardViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViews.swift; sourceTree = "<group>"; };
+		03FAC45ECC718224AD34191B /* LockState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockState.swift; sourceTree = "<group>"; };
+		0ECCA3A24225F5634C54D47F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		107A52E1BF87D9F5A26D2BE6 /* ZoneEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneEditorView.swift; sourceTree = "<group>"; };
+		28D0B0256D0271B80465C369 /* ManagedSettingsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedSettingsUI.framework; path = System/Library/Frameworks/ManagedSettingsUI.framework; sourceTree = SDKROOT; };
+		2DCDC96637F0D4ED3D7E15E6 /* BlocklistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlocklistsView.swift; sourceTree = "<group>"; };
+		3CD7826541BB3A5130C9D53D /* GradeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeCalculator.swift; sourceTree = "<group>"; };
+		41BE64C8D56B2F6FBD812BD2 /* ValidationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationService.swift; sourceTree = "<group>"; };
+		45DB9491AAC467433090FBCA /* GradeCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeCalculatorTests.swift; sourceTree = "<group>"; };
+		470AE0A047BB5C7A3CC79A19 /* SessionWizardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionWizardView.swift; sourceTree = "<group>"; };
+		4A64525F53A78AA9A37CCFAB /* EntityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityCard.swift; sourceTree = "<group>"; };
+		4F4C227D398BFBDD228BD463 /* ManagedSettings.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedSettings.framework; path = System/Library/Frameworks/ManagedSettings.framework; sourceTree = SDKROOT; };
+		504032B853EEF88F9CAFFE09 /* AppGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroup.swift; sourceTree = "<group>"; };
+		5185DDCA19037189B30A9261 /* WebsitePresets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsitePresets.swift; sourceTree = "<group>"; };
+		557FFA562E50070A6D6DAC1E /* ModelContainer+Lockin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ModelContainer+Lockin.swift"; sourceTree = "<group>"; };
+		58C79376A4AA2BFE78B214F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C5AB124BA96C3056CE8F2A7 /* DeviceActivityMonitorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceActivityMonitorExtension.swift; sourceTree = "<group>"; };
+		5E5BE0C041F0B87240436EA6 /* ZoneProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneProgressView.swift; sourceTree = "<group>"; };
+		5E617EB17DBB09E91B08C0A7 /* LockinShieldConfiguration.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = LockinShieldConfiguration.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6073A7F9D014D99EC755CC75 /* ZonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZonesView.swift; sourceTree = "<group>"; };
+		61BE19CD5CA57BD22DD3A039 /* MacAppBlocker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacAppBlocker.swift; sourceTree = "<group>"; };
+		67651FF19F1DAF0EBE4C86AE /* ScheduleEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleEvaluator.swift; sourceTree = "<group>"; };
+		6FF80EFF8A56DDED9C27A7F3 /* EventEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditorView.swift; sourceTree = "<group>"; };
+		75D13C42EB7B12B310AE287F /* MacSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacSupport.swift; sourceTree = "<group>"; };
+		7E23F64D5F4E91E389E4A806 /* XboxPresenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XboxPresenceService.swift; sourceTree = "<group>"; };
+		7E53FD1FF0CB50B81634ADA1 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		83D71B885B49FDEB1DDD007B /* DeviceSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSettings.swift; sourceTree = "<group>"; };
+		861CAFB60A147EB9A6766D9E /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = System/Library/Frameworks/DeviceActivity.framework; sourceTree = SDKROOT; };
+		87CA011F6E7F0A1137E4A032 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		8CEC75810D755204EEF448EC /* SyncMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncMonitor.swift; sourceTree = "<group>"; };
+		8E4AC7F1B924373F13E55DC8 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+		91E321F0DA35B54FCB3F8F66 /* ScheduleEvaluatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleEvaluatorTests.swift; sourceTree = "<group>"; };
+		9865B33AE93CC754D66BFBEC /* SnapshotBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotBuilder.swift; sourceTree = "<group>"; };
+		98D7256C1E42DA92B86A1506 /* BlockEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockEngine.swift; sourceTree = "<group>"; };
+		A2AF57D513796A1E8149E4B9 /* ProgressSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressSupport.swift; sourceTree = "<group>"; };
+		A8C6605C7769C3F4766C9F4D /* LockinShieldAction.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = LockinShieldAction.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3EACC970029B5058F2D458 /* CalendarHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHomeView.swift; sourceTree = "<group>"; };
+		B5E95B878DC11072A5736C10 /* FamilyControls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FamilyControls.framework; path = System/Library/Frameworks/FamilyControls.framework; sourceTree = SDKROOT; };
+		B68976F0A9F7C777EDF32E6F /* LockinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B920AD3D8AB48C32C05AA341 /* LockinDeviceActivity.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = LockinDeviceActivity.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB1C19E4108C163159C92A9 /* ShieldConfigurationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldConfigurationExtension.swift; sourceTree = "<group>"; };
+		C378AFCA2DB216BE57E2A103 /* DeviceActivityNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceActivityNames.swift; sourceTree = "<group>"; };
+		C7B319A9843C64431CB1F01F /* BlocklistEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlocklistEditorView.swift; sourceTree = "<group>"; };
+		D19A8C5F0C2EB23F1C42DD13 /* ShieldActionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldActionExtension.swift; sourceTree = "<group>"; };
+		D63CEBDB7238CC9D2A6C0E54 /* SessionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsView.swift; sourceTree = "<group>"; };
+		D87994F3FA0B46194A5B6F75 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		D97A409FA9C619F8DF371059 /* ProgressHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHomeView.swift; sourceTree = "<group>"; };
+		DB501713DCC43F117E1EA856 /* MilestoneEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestoneEditorView.swift; sourceTree = "<group>"; };
+		E53210E8CC9AF6DF1E8EE222 /* Lockin.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Lockin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D3236099A2CF7A384C041E /* ValidationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationView.swift; sourceTree = "<group>"; };
+		E9DF9D667F44F65F952B2D06 /* RotaryDurationClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotaryDurationClock.swift; sourceTree = "<group>"; };
+		F2A9510A8884F557998927D3 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F7D95E5A95BFCB848AD49ECA /* LockinMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockinMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBACD7A20C31A51920F26C6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FBFDB155413415B16E555153 /* LockinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockinApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1642E96C34E0AEC890103BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BBF83DD809757C24AA5CA89 /* FamilyControls.framework in Frameworks */,
+				37544DF41AAD06E5F9534538 /* ManagedSettings.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166274682F6A58E590C58BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEBCC3EEDC1734976D5321D /* FamilyControls.framework in Frameworks */,
+				243139489DA9C6FBB1E8DC55 /* ManagedSettings.framework in Frameworks */,
+				B6F12219B101A9BE3C2336EA /* DeviceActivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC56C472B5E1F61432CF753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4446C457912E61AA981096 /* FamilyControls.framework in Frameworks */,
+				DD83D2886EFAB399861010BF /* ManagedSettings.framework in Frameworks */,
+				164E5773913AD0A93EBA3DE1 /* DeviceActivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2437F3EF2B27DCEC752E083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069618C8C24F277D4E969D44 /* FamilyControls.framework in Frameworks */,
+				5A8A66B7356C61EF582CD65D /* ManagedSettings.framework in Frameworks */,
+				4E238D220D926B93EE47266E /* ManagedSettingsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06872731D08826FFF4210BD7 /* Lockin */ = {
+			isa = PBXGroup;
+			children = (
+				505B8027306362F5783C8099 /* Features */,
+				A161F12101E51D74DB7F936E /* Models */,
+				F398DBBDBE6075F96ABF6493 /* Services */,
+				58C79376A4AA2BFE78B214F4 /* Assets.xcassets */,
+				FBFDB155413415B16E555153 /* LockinApp.swift */,
+				75D13C42EB7B12B310AE287F /* MacSupport.swift */,
+				87CA011F6E7F0A1137E4A032 /* Theme.swift */,
+			);
+			path = Lockin;
+			sourceTree = "<group>";
+		};
+		0702D8CAEDBDC91F4CE0374F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E53210E8CC9AF6DF1E8EE222 /* Lockin.app */,
+				B920AD3D8AB48C32C05AA341 /* LockinDeviceActivity.appex */,
+				F7D95E5A95BFCB848AD49ECA /* LockinMac.app */,
+				A8C6605C7769C3F4766C9F4D /* LockinShieldAction.appex */,
+				5E617EB17DBB09E91B08C0A7 /* LockinShieldConfiguration.appex */,
+				B68976F0A9F7C777EDF32E6F /* LockinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		198EF9FC24224602D163B499 /* Blocklist */ = {
+			isa = PBXGroup;
+			children = (
+				C7B319A9843C64431CB1F01F /* BlocklistEditorView.swift */,
+				2DCDC96637F0D4ED3D7E15E6 /* BlocklistsView.swift */,
+			);
+			path = Blocklist;
+			sourceTree = "<group>";
+		};
+		28549C9EAE0D566323FAB6D4 /* LockinShieldConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				BAB1C19E4108C163159C92A9 /* ShieldConfigurationExtension.swift */,
+			);
+			path = LockinShieldConfiguration;
+			sourceTree = "<group>";
+		};
+		2AD0028AF548BCAEA6F47DFC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FBBACD7A20C31A51920F26C6 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		382021F025EBD67928481B24 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				E7D3236099A2CF7A384C041E /* ValidationView.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		39CAA402FA1F5C3AC43EAB9F /* LockinDeviceActivity */ = {
+			isa = PBXGroup;
+			children = (
+				5C5AB124BA96C3056CE8F2A7 /* DeviceActivityMonitorExtension.swift */,
+			);
+			path = LockinDeviceActivity;
+			sourceTree = "<group>";
+		};
+		3E0528CCD55B57B65D7D4698 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				DB501713DCC43F117E1EA856 /* MilestoneEditorView.swift */,
+				D97A409FA9C619F8DF371059 /* ProgressHomeView.swift */,
+				A2AF57D513796A1E8149E4B9 /* ProgressSupport.swift */,
+				5E5BE0C041F0B87240436EA6 /* ZoneProgressView.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		505B8027306362F5783C8099 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				198EF9FC24224602D163B499 /* Blocklist */,
+				A4AB44A9BA0A99AD85ADBD2D /* Calendar */,
+				BC3F9231FE1B75C5C6AFD6C8 /* Onboarding */,
+				F78D5531994EB1FED0A8C193 /* Overview */,
+				3E0528CCD55B57B65D7D4698 /* Progress */,
+				9C334BB0865EF04A88926CB1 /* Sessions */,
+				2AD0028AF548BCAEA6F47DFC /* Settings */,
+				9CB4C0DB539D09754C866B14 /* Shared */,
+				382021F025EBD67928481B24 /* Validation */,
+				F107B8DD0941B1000C8CFB9E /* Zones */,
+				014DB2B811CA004B4ABADCE7 /* RootView.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		87A09726D710A684E082831C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				504032B853EEF88F9CAFFE09 /* AppGroup.swift */,
+				98D7256C1E42DA92B86A1506 /* BlockEngine.swift */,
+				C378AFCA2DB216BE57E2A103 /* DeviceActivityNames.swift */,
+				61BE19CD5CA57BD22DD3A039 /* MacAppBlocker.swift */,
+				67651FF19F1DAF0EBE4C86AE /* ScheduleEvaluator.swift */,
+				5185DDCA19037189B30A9261 /* WebsitePresets.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		9A9C4664A9B2E9F8B62F28AE /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				45DB9491AAC467433090FBCA /* GradeCalculatorTests.swift */,
+				91E321F0DA35B54FCB3F8F66 /* ScheduleEvaluatorTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		9C334BB0865EF04A88926CB1 /* Sessions */ = {
+			isa = PBXGroup;
+			children = (
+				D63CEBDB7238CC9D2A6C0E54 /* SessionsView.swift */,
+				470AE0A047BB5C7A3CC79A19 /* SessionWizardView.swift */,
+			);
+			path = Sessions;
+			sourceTree = "<group>";
+		};
+		9CB4C0DB539D09754C866B14 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4A64525F53A78AA9A37CCFAB /* EntityCard.swift */,
+				E9DF9D667F44F65F952B2D06 /* RotaryDurationClock.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A161F12101E51D74DB7F936E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				557FFA562E50070A6D6DAC1E /* ModelContainer+Lockin.swift */,
+				F2A9510A8884F557998927D3 /* Models.swift */,
+				9865B33AE93CC754D66BFBEC /* SnapshotBuilder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A4AB44A9BA0A99AD85ADBD2D /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				AA3EACC970029B5058F2D458 /* CalendarHomeView.swift */,
+				6FF80EFF8A56DDED9C27A7F3 /* EventEditorView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		A77B4716E4DAC663E50BD60B = {
+			isa = PBXGroup;
+			children = (
+				06872731D08826FFF4210BD7 /* Lockin */,
+				39CAA402FA1F5C3AC43EAB9F /* LockinDeviceActivity */,
+				EFD1748AF7BC17CE6F1712E6 /* LockinShieldAction */,
+				28549C9EAE0D566323FAB6D4 /* LockinShieldConfiguration */,
+				87A09726D710A684E082831C /* Shared */,
+				9A9C4664A9B2E9F8B62F28AE /* Tests */,
+				B09F9DAAEB9A09A0283AC4C5 /* Frameworks */,
+				0702D8CAEDBDC91F4CE0374F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B09F9DAAEB9A09A0283AC4C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				861CAFB60A147EB9A6766D9E /* DeviceActivity.framework */,
+				B5E95B878DC11072A5736C10 /* FamilyControls.framework */,
+				4F4C227D398BFBDD228BD463 /* ManagedSettings.framework */,
+				28D0B0256D0271B80465C369 /* ManagedSettingsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3F9231FE1B75C5C6AFD6C8 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0ECCA3A24225F5634C54D47F /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		EFD1748AF7BC17CE6F1712E6 /* LockinShieldAction */ = {
+			isa = PBXGroup;
+			children = (
+				D19A8C5F0C2EB23F1C42DD13 /* ShieldActionExtension.swift */,
+			);
+			path = LockinShieldAction;
+			sourceTree = "<group>";
+		};
+		F107B8DD0941B1000C8CFB9E /* Zones */ = {
+			isa = PBXGroup;
+			children = (
+				107A52E1BF87D9F5A26D2BE6 /* ZoneEditorView.swift */,
+				6073A7F9D014D99EC755CC75 /* ZonesView.swift */,
+			);
+			path = Zones;
+			sourceTree = "<group>";
+		};
+		F398DBBDBE6075F96ABF6493 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				83D71B885B49FDEB1DDD007B /* DeviceSettings.swift */,
+				3CD7826541BB3A5130C9D53D /* GradeCalculator.swift */,
+				7E53FD1FF0CB50B81634ADA1 /* KeychainStore.swift */,
+				03FAC45ECC718224AD34191B /* LockState.swift */,
+				D87994F3FA0B46194A5B6F75 /* NotificationService.swift */,
+				8CEC75810D755204EEF448EC /* SyncMonitor.swift */,
+				41BE64C8D56B2F6FBD812BD2 /* ValidationService.swift */,
+				7E23F64D5F4E91E389E4A806 /* XboxPresenceService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F78D5531994EB1FED0A8C193 /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				01AFB020A621CC95C714AC75 /* DashboardViews.swift */,
+				8E4AC7F1B924373F13E55DC8 /* OverviewView.swift */,
+			);
+			path = Overview;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		053E78174C9E0B35348DE757 /* LockinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C0B76719AB5754C17F69FA8 /* Build configuration list for PBXNativeTarget "LockinTests" */;
+			buildPhases = (
+				6F04EEE2144EEBC394C2EA57 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockinTests;
+			packageProductDependencies = (
+			);
+			productName = LockinTests;
+			productReference = B68976F0A9F7C777EDF32E6F /* LockinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05C60BB9BFA66B86AE53B71D /* LockinShieldAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F433B8B159B0934F228002BA /* Build configuration list for PBXNativeTarget "LockinShieldAction" */;
+			buildPhases = (
+				FBDC60EE3465AE05982524E0 /* Sources */,
+				1642E96C34E0AEC890103BCB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockinShieldAction;
+			packageProductDependencies = (
+			);
+			productName = LockinShieldAction;
+			productReference = A8C6605C7769C3F4766C9F4D /* LockinShieldAction.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2D4A60AB86A4F73184BA991C /* LockinShieldConfiguration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F5D12AE982D7464AB3DD94 /* Build configuration list for PBXNativeTarget "LockinShieldConfiguration" */;
+			buildPhases = (
+				6881F1912D5A5A842390857A /* Sources */,
+				B2437F3EF2B27DCEC752E083 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockinShieldConfiguration;
+			packageProductDependencies = (
+			);
+			productName = LockinShieldConfiguration;
+			productReference = 5E617EB17DBB09E91B08C0A7 /* LockinShieldConfiguration.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4BD515A0D071B4193CC6B9B2 /* Lockin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEDD67EE004C317B738C70DC /* Build configuration list for PBXNativeTarget "Lockin" */;
+			buildPhases = (
+				DD3DC7866BA1EE5ECF5F2492 /* Sources */,
+				BD63DF00FC64520377C48EE7 /* Resources */,
+				9DC56C472B5E1F61432CF753 /* Frameworks */,
+				3949F4BE8958E536AF4C9654 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89F2CAC754D05A29F73770A2 /* PBXTargetDependency */,
+				16E613ECC3D3765A25A68C98 /* PBXTargetDependency */,
+				92A633104DC5067FD2819DB0 /* PBXTargetDependency */,
+			);
+			name = Lockin;
+			packageProductDependencies = (
+			);
+			productName = Lockin;
+			productReference = E53210E8CC9AF6DF1E8EE222 /* Lockin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99BB9BCB34B92F9F299371D6 /* LockinMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F16EAD2D4EDDD209A9FED1 /* Build configuration list for PBXNativeTarget "LockinMac" */;
+			buildPhases = (
+				E07662DBF32880E8DA1EBC37 /* Sources */,
+				94D494830B4C4879193EEDED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockinMac;
+			packageProductDependencies = (
+			);
+			productName = LockinMac;
+			productReference = F7D95E5A95BFCB848AD49ECA /* LockinMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADB5FD151841A5F906D158C5 /* LockinDeviceActivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAFD19B26F7B877795AB52FA /* Build configuration list for PBXNativeTarget "LockinDeviceActivity" */;
+			buildPhases = (
+				8B204B2EBCB3CCC507FDD472 /* Sources */,
+				166274682F6A58E590C58BEE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockinDeviceActivity;
+			packageProductDependencies = (
+			);
+			productName = LockinDeviceActivity;
+			productReference = B920AD3D8AB48C32C05AA341 /* LockinDeviceActivity.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1BAD0681630D1CDBE93FF4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					053E78174C9E0B35348DE757 = {
+						DevelopmentTeam = 93RYX79RFR;
+						ProvisioningStyle = Automatic;
+					};
+					05C60BB9BFA66B86AE53B71D = {
+						DevelopmentTeam = 93RYX79RFR;
+						ProvisioningStyle = Automatic;
+					};
+					2D4A60AB86A4F73184BA991C = {
+						DevelopmentTeam = 93RYX79RFR;
+						ProvisioningStyle = Automatic;
+					};
+					4BD515A0D071B4193CC6B9B2 = {
+						DevelopmentTeam = 93RYX79RFR;
+						ProvisioningStyle = Automatic;
+					};
+					99BB9BCB34B92F9F299371D6 = {
+						DevelopmentTeam = 93RYX79RFR;
+						ProvisioningStyle = Automatic;
+					};
+					ADB5FD151841A5F906D158C5 = {
+						DevelopmentTeam = 93RYX79RFR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 232D0F7DE39674541059719B /* Build configuration list for PBXProject "Lockin" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A77B4716E4DAC663E50BD60B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0702D8CAEDBDC91F4CE0374F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BD515A0D071B4193CC6B9B2 /* Lockin */,
+				99BB9BCB34B92F9F299371D6 /* LockinMac */,
+				053E78174C9E0B35348DE757 /* LockinTests */,
+				ADB5FD151841A5F906D158C5 /* LockinDeviceActivity */,
+				2D4A60AB86A4F73184BA991C /* LockinShieldConfiguration */,
+				05C60BB9BFA66B86AE53B71D /* LockinShieldAction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94D494830B4C4879193EEDED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307F93BB695E2993BDE9F91A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD63DF00FC64520377C48EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D4658E8BE6C6995BFE3732 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6881F1912D5A5A842390857A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C371FFFBFFCDAF415BFF7E /* ShieldConfigurationExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F04EEE2144EEBC394C2EA57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7C9E8AB5D597169207576D /* GradeCalculator.swift in Sources */,
+				3858C0E35792C3F9F0851A68 /* GradeCalculatorTests.swift in Sources */,
+				00D1278EBDA05E067F88BD9D /* ScheduleEvaluator.swift in Sources */,
+				8D569B2CD71C5D418F046C78 /* ScheduleEvaluatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B204B2EBCB3CCC507FDD472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266CC074B8BE6B9221482D40 /* AppGroup.swift in Sources */,
+				A1BDDDA1336C6F8A74AAE51C /* BlockEngine.swift in Sources */,
+				47290533D25EB5B1FF787E37 /* DeviceActivityMonitorExtension.swift in Sources */,
+				C5D1824B37FE00AA83DFF08F /* DeviceActivityNames.swift in Sources */,
+				06476316DD85802998294F92 /* MacAppBlocker.swift in Sources */,
+				7B046101C8BD4797C4602DF6 /* ScheduleEvaluator.swift in Sources */,
+				034749E2C4ACFC772556E0EA /* WebsitePresets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3DC7866BA1EE5ECF5F2492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BCBFC36711B9E66A4EDCA1 /* AppGroup.swift in Sources */,
+				26E3F9447AF5E2DDD02E8A5D /* BlockEngine.swift in Sources */,
+				1077D10D1FBB2DB0223DF099 /* BlocklistEditorView.swift in Sources */,
+				1F08ACA6D9EDAAE1A1D9999F /* BlocklistsView.swift in Sources */,
+				0FA97DAC02178A827447F6B4 /* CalendarHomeView.swift in Sources */,
+				C2080D5E4A3146BA01CA937B /* DashboardViews.swift in Sources */,
+				94AFFC96FD52FD6E28A43B3C /* DeviceActivityNames.swift in Sources */,
+				E2C2D6AB2D02D3C091BFB352 /* DeviceSettings.swift in Sources */,
+				129F4D644AF3E5E2FEFB4324 /* EntityCard.swift in Sources */,
+				4F822FDB1FF450B5404651AD /* EventEditorView.swift in Sources */,
+				CE5701CE79B362BF02BE91E8 /* GradeCalculator.swift in Sources */,
+				5B3814CCB025D3347E32EA9E /* KeychainStore.swift in Sources */,
+				666CF06814AA481CA49C4C07 /* LockState.swift in Sources */,
+				D7454FE6F4B4F57B54C9BB5F /* LockinApp.swift in Sources */,
+				9E64EC56553757D101AF6CC4 /* MacAppBlocker.swift in Sources */,
+				F2EC93D035CA7ADC8352745E /* MacSupport.swift in Sources */,
+				0807C3FC59401E9FA579047D /* MilestoneEditorView.swift in Sources */,
+				B575D270193D01FF571216A0 /* ModelContainer+Lockin.swift in Sources */,
+				14ACC416613B40E024BA40B9 /* Models.swift in Sources */,
+				E45C003BBBC421F148D47AA7 /* NotificationService.swift in Sources */,
+				2B229AD3AD6868939B74E9F5 /* OnboardingView.swift in Sources */,
+				11BB26DDCAF9F93DA97F9FAF /* OverviewView.swift in Sources */,
+				CA0B9D42186311DCE2A54DE0 /* ProgressHomeView.swift in Sources */,
+				A2AA16BDE031BF976B36C623 /* ProgressSupport.swift in Sources */,
+				0A631CA5AE7E2BB9C1A7DB75 /* RootView.swift in Sources */,
+				3BF251EFE76000AD19B24FDA /* RotaryDurationClock.swift in Sources */,
+				C50DFF7466CA9027AD8C5C9D /* ScheduleEvaluator.swift in Sources */,
+				933C2A275EAC07324BF62CF3 /* SessionWizardView.swift in Sources */,
+				86B5882DAC3EFFD65CD129C5 /* SessionsView.swift in Sources */,
+				823BDB6C0C209DD4D77F885B /* SettingsView.swift in Sources */,
+				9C85E78868B3E640E9D9A8D2 /* SnapshotBuilder.swift in Sources */,
+				9D7E0E8C232C8ED59B447BEC /* SyncMonitor.swift in Sources */,
+				B425767CA4935C2F6F86CF83 /* Theme.swift in Sources */,
+				083A30F42472E8A93A680691 /* ValidationService.swift in Sources */,
+				49FF21D42BC9B312A1CFC941 /* ValidationView.swift in Sources */,
+				69ADC51E1A35669E5BB0C05C /* WebsitePresets.swift in Sources */,
+				F0BB8757A17C83287F7F9AE7 /* XboxPresenceService.swift in Sources */,
+				4BAFCFEB202B3B40CDD73310 /* ZoneEditorView.swift in Sources */,
+				02BF3B0BC40CF1FC8BD8FD6D /* ZoneProgressView.swift in Sources */,
+				18F8983D6D29DEA43D515C4B /* ZonesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07662DBF32880E8DA1EBC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A6A08A347DE751D2ECCA43 /* AppGroup.swift in Sources */,
+				18B1C989BEF4F240C09FE393 /* BlockEngine.swift in Sources */,
+				2736892398DCF74C23E5BF99 /* BlocklistEditorView.swift in Sources */,
+				C0D7C7ABD46988B9492B82A5 /* BlocklistsView.swift in Sources */,
+				C1BE186CC81AFFF746872646 /* CalendarHomeView.swift in Sources */,
+				855057A8BBCB15D4F8DB2C5F /* DashboardViews.swift in Sources */,
+				781811EE5F362A4E6918A83C /* DeviceActivityNames.swift in Sources */,
+				715DA6B2B3AD62EB27BEC171 /* DeviceSettings.swift in Sources */,
+				ABFCFD742BD3F8E72CF2271B /* EntityCard.swift in Sources */,
+				9FB8BA1014ECC360B8EE214F /* EventEditorView.swift in Sources */,
+				947DED11165CDD44A98C8755 /* GradeCalculator.swift in Sources */,
+				52B8A57382DFAA4B4522FFC4 /* KeychainStore.swift in Sources */,
+				580ABE2F1CB82CDC1ABDAD55 /* LockState.swift in Sources */,
+				7DCDE09923AD6AF0C02615E7 /* LockinApp.swift in Sources */,
+				4AC3BB33FA3C7CE3E2949021 /* MacAppBlocker.swift in Sources */,
+				8F9EEA5E0E79211E08267A77 /* MacSupport.swift in Sources */,
+				C20F42586F5AB69F7091C805 /* MilestoneEditorView.swift in Sources */,
+				5BDCDCCC7890161A7A79644C /* ModelContainer+Lockin.swift in Sources */,
+				C21C8D7A6BF0A80620727B42 /* Models.swift in Sources */,
+				8674952BB9EBF5D8AEE0E50A /* NotificationService.swift in Sources */,
+				242B7C6D86CB6827B6D71644 /* OnboardingView.swift in Sources */,
+				8952DFD903F189FB6B33376D /* OverviewView.swift in Sources */,
+				02E955110FF07ADF51D9C748 /* ProgressHomeView.swift in Sources */,
+				A5C183316E2F723A240DD7E3 /* ProgressSupport.swift in Sources */,
+				323E9DBABEC1EEC062A65A77 /* RootView.swift in Sources */,
+				42DC566981C78B30FDD90997 /* RotaryDurationClock.swift in Sources */,
+				01227E2E879CCAC12C99D615 /* ScheduleEvaluator.swift in Sources */,
+				AF3DA7E0D621690A0944769E /* SessionWizardView.swift in Sources */,
+				BD5054021EA4DD05B368031A /* SessionsView.swift in Sources */,
+				C05303FFCE8DC007469886DF /* SettingsView.swift in Sources */,
+				12632485DEE03875BB3CFB69 /* SnapshotBuilder.swift in Sources */,
+				BF8D54730075D430A091DA68 /* SyncMonitor.swift in Sources */,
+				04B75EA7A31C4063EC25779B /* Theme.swift in Sources */,
+				4C241443DDFA1AE3235289DE /* ValidationService.swift in Sources */,
+				B608247CC2E2A2FD5E5EF460 /* ValidationView.swift in Sources */,
+				C64C274568BEA6B29958F129 /* WebsitePresets.swift in Sources */,
+				D16977116B85C716E23CBB59 /* XboxPresenceService.swift in Sources */,
+				6314D0003D8AEC31C149966A /* ZoneEditorView.swift in Sources */,
+				980686C8E4D750A8ED841D1B /* ZoneProgressView.swift in Sources */,
+				27D401B034380045293B0289 /* ZonesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDC60EE3465AE05982524E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9180DAC962E1BA7B487CE12 /* AppGroup.swift in Sources */,
+				589F7D69E9D3DE585FD1CB41 /* ShieldActionExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16E613ECC3D3765A25A68C98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D4A60AB86A4F73184BA991C /* LockinShieldConfiguration */;
+			targetProxy = F39342DCB8D8F33A245BD8C7 /* PBXContainerItemProxy */;
+		};
+		89F2CAC754D05A29F73770A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADB5FD151841A5F906D158C5 /* LockinDeviceActivity */;
+			targetProxy = 97E7EBEE2BFCF6D76A336017 /* PBXContainerItemProxy */;
+		};
+		92A633104DC5067FD2819DB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05C60BB9BFA66B86AE53B71D /* LockinShieldAction */;
+			targetProxy = D89D674DAC4F48C53E1A88EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07A3298B60DD38D8A26457A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LockinDeviceActivity/LockinDeviceActivity.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LockinDeviceActivity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cadechanyi.lockin.DeviceActivity;
+				PRODUCT_NAME = LockinDeviceActivity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0CD5DC41538142AD1293D24A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 93RYX79RFR;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1C3EEF5649A7637B8391B582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cadechanyi.lockin.tests;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2D0D62C21FC38C25AC2C9A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LockinShieldAction/LockinShieldAction.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LockinShieldAction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cadechanyi.lockin.ShieldAction;
+				PRODUCT_NAME = LockinShieldAction;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DB5007AD6E63C02C2C18521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cadechanyi.lockin.tests;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A3983CAF3EDC6A3A8EA096F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Lockin/Lockin-macOS.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Lockin/Info-macOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cadechanyi.lockin.mac;
+				PRODUCT_NAME = Lockin;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AC688F28FE9772EB0A9CC307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lockin/Lockin.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Lockin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cadechanyi.lockin;
+				PRODUCT_NAME = Lockin;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8909A2134A0E3359B49562F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lockin/Lockin.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Lockin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cadechanyi.lockin;
+				PRODUCT_NAME = Lockin;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC4830D1EC248A86002C6D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LockinShieldConfiguration/LockinShieldConfiguration.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LockinShieldConfiguration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cadechanyi.lockin.ShieldConfiguration;
+				PRODUCT_NAME = LockinShieldConfiguration;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD0F2BD7012167643312B6DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Lockin/Lockin-macOS.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Lockin/Info-macOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cadechanyi.lockin.mac;
+				PRODUCT_NAME = Lockin;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CE6322CBD6ACC7E3866E4095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 93RYX79RFR;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CFB4D44275CD8E667F02A684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LockinShieldConfiguration/LockinShieldConfiguration.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LockinShieldConfiguration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cadechanyi.lockin.ShieldConfiguration;
+				PRODUCT_NAME = LockinShieldConfiguration;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D24CD96869B0996519AA0890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LockinDeviceActivity/LockinDeviceActivity.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LockinDeviceActivity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cadechanyi.lockin.DeviceActivity;
+				PRODUCT_NAME = LockinDeviceActivity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF8017A2A999B73C16C4D08D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LockinShieldAction/LockinShieldAction.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LockinShieldAction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cadechanyi.lockin.ShieldAction;
+				PRODUCT_NAME = LockinShieldAction;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C0B76719AB5754C17F69FA8 /* Build configuration list for PBXNativeTarget "LockinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C3EEF5649A7637B8391B582 /* Debug */,
+				3DB5007AD6E63C02C2C18521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		232D0F7DE39674541059719B /* Build configuration list for PBXProject "Lockin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD5DC41538142AD1293D24A /* Debug */,
+				CE6322CBD6ACC7E3866E4095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		33F5D12AE982D7464AB3DD94 /* Build configuration list for PBXNativeTarget "LockinShieldConfiguration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4830D1EC248A86002C6D1A /* Debug */,
+				CFB4D44275CD8E667F02A684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		78F16EAD2D4EDDD209A9FED1 /* Build configuration list for PBXNativeTarget "LockinMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0F2BD7012167643312B6DF /* Debug */,
+				A3983CAF3EDC6A3A8EA096F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AEDD67EE004C317B738C70DC /* Build configuration list for PBXNativeTarget "Lockin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC688F28FE9772EB0A9CC307 /* Debug */,
+				C8909A2134A0E3359B49562F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EAFD19B26F7B877795AB52FA /* Build configuration list for PBXNativeTarget "LockinDeviceActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24CD96869B0996519AA0890 /* Debug */,
+				07A3298B60DD38D8A26457A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F433B8B159B0934F228002BA /* Build configuration list for PBXNativeTarget "LockinShieldAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8017A2A999B73C16C4D08D /* Debug */,
+				2D0D62C21FC38C25AC2C9A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1BAD0681630D1CDBE93FF4E /* Project object */;
+}
